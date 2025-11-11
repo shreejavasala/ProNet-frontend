@@ -106,7 +106,7 @@ pronet-backend/
 ### Backend
 1. Clone the backend repo:
 ```
-git clone https://github.com/yourusername/pronet-backend.git
+git clone https://github.com/shreeja/ProNet-backend.git
 cd pronet-backend
 ```
 3. Install dependencies:
@@ -117,7 +117,7 @@ npm install
  ```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-PORT=5000
+PORT=3000
 ```
 7. Start server:
 ```
@@ -128,7 +128,7 @@ npm run dev #using nodemon
 ### Frontend
 1. Clone the frontend repo:
 ```
-git clone https://github.com/yourusername/pronet-frontend.git
+git clone https://github.com/shreejavasala/ProNet-frontend.git
 cd pronet-frontend
 ```
 3. Install dependencies:
