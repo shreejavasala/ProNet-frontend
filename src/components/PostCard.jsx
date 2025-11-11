@@ -113,7 +113,7 @@ const PostCard = ({ post, refreshPosts }) => {
           </div>
         </div>
       ) : (
-        <p className='mb-3 overflow-hidden px-8 sm:px-2 md:px-1 lg:px-3'>{post.content}</p>
+        <p className='mb-3 overflow-hidden px-8 sm:px-2 md:px-1 lg:px-3 line-clamp-2'>{post.content}</p>
       )}
       
       <div className='flex items-center justify-center'>
@@ -162,7 +162,6 @@ const PostCard = ({ post, refreshPosts }) => {
           className="w-full bg-gray-700 text-white p-2 my-2 rounded"
         />
 
-
         <div className='flex justify-between items-center'>
           <button
             onClick={handleAddComment}
@@ -182,13 +181,16 @@ const PostCard = ({ post, refreshPosts }) => {
         </div>
       </div>
 
-      <div className="mt-3 overflow-hidden">
-        {showComments && post.comments.map((c, i) => (
-          <p key={i} className="text-gray-300 text-sm">
-            💬 {c.text}
-          </p>
-        ))}
-      </div>
+      
+      {showComments && (
+        <div className="mt-3">
+          {post.comments.map((c, i) => (
+            <p key={i} className="text-gray-300 text-sm">
+              💬 {c.text}
+            </p>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
