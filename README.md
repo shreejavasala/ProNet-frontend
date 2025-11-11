@@ -13,8 +13,9 @@ This project demonstrates **full-stack development skills** using React, Node.js
 ---
 
 ## GitHub Repositories
-- **Frontend:** [pronet-frontend](https://github.com/shreejavasala/ProNet-backend.git)  
-- **Backend:** [pronet-backend](https://github.com/shreejavasala/ProNet-frontend.git)
+- **Frontend:** [pronet-frontend](https://github.com/shreejavasala/ProNet-frontend.git)
+- **Backend:** [pronet-backend](https://github.com/shreejavasala/ProNet-backend.git)  
+
 
 ---
 
